@@ -22,7 +22,7 @@ pip install -r requirements.txt
 - The pre-trained Glove features can be accessed via https://nlp.stanford.edu/projects/glove/
 
 After downloading the datasets, keep them in the folders set by `utils/config.py`.
-The new constructed dataset `SLAKE=LB` is provided from : https://drive.google.com/drive/folders/1j5dMeTCdiFbvZfyfjp6uRz-ldR5HvaPh?usp=drive_link.
+The new constructed dataset `SLAKE-LB` is provided from : https://drive.google.com/drive/folders/1j5dMeTCdiFbvZfyfjp6uRz-ldR5HvaPh?usp=drive_link.
 
 ## Preprocessing
 
@@ -46,7 +46,7 @@ The preprocessing steps are as follows:
 ```
     python main_arcface.py --name test-VQA --gpu 0 --dataset DATASET
    ```
-Set `DATASET` to a specfic dataset such as `slake`, `slake-cp`, `vqa-v2`, and `vqacp-v2`. 
+Set `DATASET` to a specfic dataset such as `SLAKE`, `SLAKE-LB`, `VQA-v2`, and `VQACP-v2`. 
 
 ## Model evaluation instruction
 ```
