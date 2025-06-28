@@ -8,7 +8,7 @@ Code release for "LBF-VQA: Towards Language Bias-Free Visual Question Answering 
 
 # Installation
 ```bash
-git clone https://github.com/
+git clone https://github.com/Binz-Chen/LBF-VQA
 conda create -n LBF-VQA python=3.7
 conda activate LBF-VQA
 pip install -r requirements.txt
